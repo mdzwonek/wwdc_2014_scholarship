@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HighschoolViewController">
+            <connections>
+                <outlet property="contentView" destination="Vw3-MV-uFu" id="mFy-a3-8c1"/>
+                <outlet property="scrollView" destination="Odc-C8-F8U" id="MLI-nd-cmA"/>
+                <outlet property="view" destination="Odc-C8-F8U" id="dor-74-WUV"/>
+                <outletCollection property="imageViews" destination="Y1b-85-h8o" id="PiC-ch-lBa"/>
+                <outletCollection property="imageViews" destination="3bB-H1-UmQ" id="v1G-5i-cKR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Odc-C8-F8U">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="Vw3-MV-uFu">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="experience_1.png" id="Y1b-85-h8o">
+                            <rect key="frame" x="200" y="55" width="100" height="100"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="experience_2.png" id="3bB-H1-UmQ">
+                            <rect key="frame" x="20" y="520" width="280" height="160"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WZu-9E-ZZo">
+                            <rect key="frame" x="20" y="20" width="175" height="165"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <string key="text">Since my early years at school, I noticed that I enjoy Science the most. I've always liked logical puzzles and solving problems which required analytical thinking.</string>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Rqg-dZ-ZIX">
+                            <rect key="frame" x="20" y="193" width="280" height="225"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <string key="text">That's probably why in highschool I focused all my efforts on Maths.
+And it was worth it. During the last year, amongst 100 people from the whole country, I was qualified to nationwide finals of LX Polish Mathematical Olympiad. It exempted me from writing highschool final exams and gave me a possibility to choose any university in Poland I wanted to.</string>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ot3-1f-qbd">
+                            <rect key="frame" x="20" y="426" width="280" height="85"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <string key="text">Highschool was also the time when I wrote my first lines of code. I started from learning C++ from tutorials I found on the Internet.</string>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+        </scrollView>
+    </objects>
+    <resources>
+        <image name="experience_1.png" width="819" height="852"/>
+        <image name="experience_2.png" width="560" height="277"/>
+    </resources>
+</document>

@@ -1,0 +1,9 @@
+[submodule "Mateusz Dzwonek/Libraries/MHFacebookImageViewer"]
+	path = Mateusz Dzwonek/Libraries/MHFacebookImageViewer
+	url = https://github.com/michaelhenry/MHFacebookImageViewer
+[submodule "Mateusz Dzwonek/Libraries/MDSDK"]
+	path = Mateusz Dzwonek/Libraries/MDSDK
+	url = https://github.com/mdzwonek/mdsdk
+[submodule "Mateusz Dzwonek/Libraries/Estimote"]
+	path = Mateusz Dzwonek/Libraries/Estimote
+	url = https://github.com/Estimote/iOS-SDK

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirstJobViewController">
+            <connections>
+                <outlet property="contentView" destination="7gx-Bf-7ao" id="rfr-NJ-tpr"/>
+                <outlet property="scrollView" destination="edi-N0-XwI" id="5Wk-Vf-1SM"/>
+                <outlet property="view" destination="edi-N0-XwI" id="niv-OX-g7h"/>
+                <outletCollection property="imageViews" destination="0cb-4Y-x6s" id="fME-Jm-SEd"/>
+                <outletCollection property="imageViews" destination="hxR-IB-92o" id="CS4-qQ-Bnl"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="edi-N0-XwI">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="680"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="7gx-Bf-7ao">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="680"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hEL-9X-9hT">
+                            <rect key="frame" x="20" y="20" width="280" height="265"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <string key="text">I started my professional career relatively early. I found my first job as a mobile developer after the first year at the University. Working and studying at the same time wasn't easy but I think it was worth it. At the University I was learning about more theoretical issues and at work I had a chance to be a part of the whole lifecycle of a project. I gained experience in development, testing and maintenance of applications for both iOS and Android platforms.</string>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lRE-5V-8Jm">
+                            <rect key="frame" x="20" y="293" width="280" height="110"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <string key="text">The project I'm the most proud of was an iOS app for the biggest radio station in Poland which quickly became one of the most popular apps in Polish App Store.</string>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="experience_5.png" id="0cb-4Y-x6s">
+                            <rect key="frame" x="20" y="428" width="130" height="232"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="experience_6.png" id="hxR-IB-92o">
+                            <rect key="frame" x="170" y="428" width="130" height="232"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+        </scrollView>
+    </objects>
+    <resources>
+        <image name="experience_5.png" width="640" height="1136"/>
+        <image name="experience_6.png" width="640" height="1136"/>
+    </resources>
+</document>
